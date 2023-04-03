@@ -1,0 +1,331 @@
+/* Media Queries */
+
+@media (min-width: 1800px) {
+  .hero-page {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .hero-page__title {
+    font-size: 100px;
+    letter-spacing: 2.5rem;
+  }
+
+  .hero-page__title--decoration {
+    font-size: 40px;
+    height: 33px;
+  }
+
+  .hero-page__description {
+    letter-spacing: 0.5rem;
+    font-size: 22px;
+  }
+
+  .coffee__info {
+    gap: 2vh;
+    width: 50%;
+  }
+  .coffee {
+    background-color: #27372c;
+    min-height: 40vh;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .coffee__description {
+    width: 100%;
+  }
+
+  .coffee__button {
+    padding: 15px 25px;
+  }
+}
+
+@media (max-width: 992px) {
+  .hero-page__title {
+    font-size: 80px;
+    letter-spacing: 2rem;
+  }
+
+  .hero-page__description {
+    padding-top: 15px;
+  }
+
+  .coffee__info {
+    width: 55%;
+  }
+
+  .coffee__image {
+    width: 35%;
+  }
+
+  .coffee__description {
+    width: 100%;
+  }
+
+  .quality__title {
+    font-size: 25px;
+    width: 70%;
+  }
+
+  .quality__subtitle {
+    font-size: 25px;
+    width: 70%;
+  }
+
+  .cherries {
+    min-height: 50vh;
+  }
+
+  .cherries__title {
+    font-size: 25px;
+    width: 70%;
+  }
+
+  .cherries__subtitle {
+    font-size: 25px;
+    width: 70%;
+  }
+
+  .cherries__bubbles {
+    padding-bottom: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-page__title {
+    font-size: 60px;
+    letter-spacing: 1rem;
+  }
+
+  .hero-page__title--decoration {
+    height: 42px;
+  }
+
+  .hero-page__description {
+    letter-spacing: 0.4rem;
+    font-size: 20px;
+    width: 80%;
+  }
+
+  .bubbles {
+    flex-wrap: wrap;
+  }
+
+  .story-page__title {
+    letter-spacing: 0.2rem;
+    font-size: 28px;
+  }
+
+  .story-page__subtitle {
+    font-size: 25px;
+    width: 90%;
+  }
+
+  .story-page__description {
+    font-size: 25px;
+    width: 90%;
+  }
+
+  .coffee__info {
+    width: 100%;
+  }
+
+  .coffee {
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .coffee__image {
+    width: 40%;
+  }
+
+  .coffee__title {
+    padding-top: 0;
+    text-align: center;
+  }
+
+  .coffee__description {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .coffee__button {
+    align-self: center;
+    margin-bottom: 50px;
+  }
+
+  .quality {
+    flex-wrap: wrap-reverse;
+  }
+
+  .quality__text {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: 50%;
+  }
+
+  .quality__image {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .quality__button-wrapper {
+    background-color: #27372c;
+    top: 1%;
+  }
+
+  .plantation__title {
+    letter-spacing: 0.2rem;
+    font-size: 25px;
+  }
+
+  .plantation__subtitle {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .plantation__description {
+    font-size: 22px;
+    text-align: center;
+    padding-bottom: 15px;
+  }
+
+  .button__wrapper--up-sm {
+    top: -8%;
+    background-color: #1c2723;
+  }
+
+  .cherries {
+    flex-wrap: wrap;
+  }
+
+  .cherries__title {
+    padding-top: 40px;
+  }
+
+  .cherries__info {
+    width: 100%;
+  }
+
+  .cherries__image {
+    width: 100%;
+  }
+
+  .button__wrapper--right {
+    top: -5%;
+    background-color: #27372c;
+  }
+
+  .cherries__bubbles {
+    padding-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .header-side {
+    top: 6%;
+    left: 50%;
+  }
+
+  .header-side__nav {
+    flex-direction: row;
+    gap: 10vw;
+    width: 70vw;
+  }
+
+  .nav {
+    flex-direction: row;
+  }
+
+  .nav--sm {
+    justify-content: center;
+    gap: 5px;
+  }
+
+  .nav__item--selected::before {
+    transform: rotate(-45deg) translate(-23px, 0);
+  }
+
+  .hero-page__description {
+    padding-top: 40px;
+  }
+
+  .story-page__title {
+    letter-spacing: 0.1rem;
+    font-size: 26px;
+    width: 50%;
+  }
+
+  .story-page__subtitle {
+    font-size: 22px;
+  }
+
+  .story-page__description {
+    font-size: 22px;
+  }
+  .decorators {
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  .decorators__line {
+    height: 2px;
+    width: 15%;
+    background-color: #656c6a;
+  }
+
+  .decorators__rhombus-group {
+    width: 60px;
+  }
+
+  .quality {
+    min-height: auto;
+  }
+
+  .coffee__button {
+    font-size: 12px;
+  }
+
+  .plantation__title {
+    letter-spacing: 0.05rem;
+    font-size: 23px;
+  }
+
+  .plantation__subtitle {
+    padding-top: 5px;
+    width: 90%;
+    font-size: 21px;
+  }
+
+  .plantation__description {
+    width: 90%;
+    font-size: 21px;
+  }
+
+  .bubbles {
+    gap: 20px;
+  }
+
+  .cherries__title {
+    width: 90%;
+  }
+
+  .cherries__subtitle {
+    padding-bottom: 10px;
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .hero-page__title {
+    letter-spacing: 0.1rem;
+    padding-top: 15px;
+  }
+}
